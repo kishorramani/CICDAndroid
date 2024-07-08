@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             CICDAndroidTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "This is a gh-actions branch",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
